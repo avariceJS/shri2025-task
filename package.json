@@ -1,0 +1,33 @@
+{
+  "name": "shri2025-task",
+  "version": "1.0.0",
+  "description": "## Задание Оптимизировать страницу, выложить результат на Github-Pages и отправить его на проверку на [https://shri-performance.ru/](https://shri-performance.ru/), отправив адрес вашей страницы. Нужно набрать минимум **80 баллов**. Набрать больше баллов возможно, но больше 120 в зачёт не пойдёт.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurZheksimbaev/shri2025-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimurZheksimbaev/shri2025-task/issues"
+  },
+  "homepage": "https://github.com/TimurZheksimbaev/shri2025-task#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "gh-pages": "^6.3.0",
+    "terser": "^5.43.1",
+    "vite": "^5.2.8"
+  }
+}
